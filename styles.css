@@ -1,1 +1,34 @@
 /* your code */
+table {
+  border-collapse: collapse;
+}
+th{
+	background-color:rgb(33,90,142);
+	color:white;
+}
+#name{
+	width:150px;
+	text-align:left;
+	border-top-left-radius:10px;
+	padding-left:5px;
+}
+.field-head{
+	width:100px;
+	text-align:left;
+}
+.field-head:last-child{
+	border-top-right-radius:10px;
+}
+td{
+	height:30px;
+}
+tbody>tr:nth-child(even)>td{
+	background-color:rgb(221,221,221);
+}
+
+tbody>tr:last-child>td:first-child{
+	border-bottom-left-radius:10px;
+}
+tbody>tr:last-child>td:last-child{
+	border-bottom-right-radius:10px;
+}
